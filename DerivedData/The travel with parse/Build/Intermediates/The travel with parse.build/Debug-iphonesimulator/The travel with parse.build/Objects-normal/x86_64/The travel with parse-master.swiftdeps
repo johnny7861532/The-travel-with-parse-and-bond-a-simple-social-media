@@ -1,0 +1,14 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "2bfbcabab8dbc23ac4afb24de505c9be"
+build_time: [513746931, 694153000]
+inputs:
+  "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/FriendSearchViewController.swift": [513676008, 0]
+  "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/PhotoViewController.swift": [513676008, 0]
+  "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/ResetPasswordViewController.swift": [513411841, 0]
+  "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/Model/Post.swift": [513746930, 0]
+  "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/LoginViewController.swift": [513418169, 0]
+  "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/AppDelegate.swift": [513422955, 0]
+  "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/SignUpViewController.swift": [513418633, 0]
+  "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/PhotoTaking/PhotoTakingHelper.swift": [513739772, 0]
+  "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/HomeViewController.swift": [513656452, 0]
+  "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/TimelineViewController.swift": [513743189, 0]

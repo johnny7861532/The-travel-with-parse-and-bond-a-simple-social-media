@@ -1,0 +1,135 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FriendSearchViewController"
+provides-nominal:
+- "C21The_travel_with_parse26FriendSearchViewController"
+provides-member:
+- ["C21The_travel_with_parse26FriendSearchViewController", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "FriendSearchViewController"
+- "UIViewController"
+depends-member:
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", ""]
+- ["C21The_travel_with_parse26FriendSearchViewController", "deinit"]
+- ["C21The_travel_with_parse26FriendSearchViewController", "init"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", ""]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "init"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "C21The_travel_with_parse26FriendSearchViewController"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/The travel with parse-Bridging-Header.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/Parse.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/ParseClientConfiguration.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConstants.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFACL.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnalytics.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFTask.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationToken.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationTokenRegistration.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnonymousUtils.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFSubclassing.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnonymousUtils+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConfig.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConfig+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFGeoPoint.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Subclass.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFRelation.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFRole.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFSession.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUserAuthenticationDelegate.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFInstallation.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFNetworkActivityIndicatorManager.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFProduct.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPurchase.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/ParseUI.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFCollectionViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/ParseUIConstants.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFImageView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFLogInView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFLogInViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFProductTableViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFQueryTableViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFPurchaseTableViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFTableViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFQueryCollectionViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFSignUpView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFSignUpViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFTextField.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/Bolts.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationTokenSource.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFExecutor.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFTaskCompletionSource.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "425e5332ebec70dd6ba82d2a1b50758d"

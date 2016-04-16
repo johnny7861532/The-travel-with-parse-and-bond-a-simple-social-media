@@ -1,0 +1,446 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhotoTakingHelperCallback"
+- "PhotoTakingHelper"
+provides-nominal:
+- "C21The_travel_with_parse17PhotoTakingHelper"
+provides-member:
+- ["C21The_travel_with_parse17PhotoTakingHelper", ""]
+provides-dynamic-lookup:
+- "imagePickerControllerDidCancel"
+- "callback"
+- "showImagePickerController"
+- "viewController"
+- "showPhotoSourceSelection"
+- "imagePickerController"
+- "imagePickerController"
+depends-top-level:
+- !private "BooleanLiteralType"
+- "UIImage"
+- "UIViewController"
+- "Void"
+- "UIImagePickerController"
+- !private "UIAlertAction"
+- "PhotoTakingHelperCallback"
+- "NSObject"
+- !private "StringLiteralType"
+- "UINavigationControllerDelegate"
+- "UIImagePickerControllerDelegate"
+- "PhotoTakingHelper"
+- "UIImagePickerControllerSourceType"
+- "AnyObject"
+- !private "UIAlertController"
+depends-member:
+- !private ["PSs9AnyObject", "UIAlertAction"]
+- !private ["PSs9AnyObject", "UIAlertController"]
+- !private ["PSs9AnyObject", "UIImagePickerController"]
+- !private ["PSs9AnyObject", "addAction"]
+- ["PSs9AnyObject", "callback"]
+- !private ["PSs9AnyObject", "delegate"]
+- !private ["PSs9AnyObject", "dismissViewControllerAnimated"]
+- ["PSs9AnyObject", "imagePickerController"]
+- ["PSs9AnyObject", "imagePickerControllerDidCancel"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isCameraDeviceAvailable"]
+- ["PSs9AnyObject", "navigationController"]
+- ["PSs9AnyObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSs9AnyObject", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSs9AnyObject", "presentViewController"]
+- ["PSs9AnyObject", "showImagePickerController"]
+- ["PSs9AnyObject", "showPhotoSourceSelection"]
+- !private ["PSs9AnyObject", "sourceType"]
+- ["PSs9AnyObject", "viewController"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "UIAlertAction"]
+- !private ["PSs11CVarArgType", "UIAlertController"]
+- !private ["PSs11CVarArgType", "UIImagePickerController"]
+- !private ["PSs11CVarArgType", "addAction"]
+- ["PSs11CVarArgType", "callback"]
+- !private ["PSs11CVarArgType", "delegate"]
+- !private ["PSs11CVarArgType", "dismissViewControllerAnimated"]
+- ["PSs11CVarArgType", "imagePickerController"]
+- ["PSs11CVarArgType", "imagePickerControllerDidCancel"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isCameraDeviceAvailable"]
+- ["PSs11CVarArgType", "navigationController"]
+- ["PSs11CVarArgType", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSs11CVarArgType", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSs11CVarArgType", "presentViewController"]
+- ["PSs11CVarArgType", "showImagePickerController"]
+- ["PSs11CVarArgType", "showPhotoSourceSelection"]
+- !private ["PSs11CVarArgType", "sourceType"]
+- ["PSs11CVarArgType", "viewController"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "UIAlertAction"]
+- !private ["PSs23CustomStringConvertible", "UIAlertController"]
+- !private ["PSs23CustomStringConvertible", "UIImagePickerController"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addAction"]
+- ["PSs23CustomStringConvertible", "callback"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- !private ["PSs23CustomStringConvertible", "dismissViewControllerAnimated"]
+- ["PSs23CustomStringConvertible", "imagePickerController"]
+- ["PSs23CustomStringConvertible", "imagePickerControllerDidCancel"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isCameraDeviceAvailable"]
+- ["PSs23CustomStringConvertible", "navigationController"]
+- ["PSs23CustomStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSs23CustomStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSs23CustomStringConvertible", "presentViewController"]
+- ["PSs23CustomStringConvertible", "showImagePickerController"]
+- ["PSs23CustomStringConvertible", "showPhotoSourceSelection"]
+- !private ["PSs23CustomStringConvertible", "sourceType"]
+- ["PSs23CustomStringConvertible", "viewController"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "ActionSheet"]
+- !private ["PSs9Equatable", "Camera"]
+- !private ["PSs9Equatable", "Cancel"]
+- !private ["PSs9Equatable", "Default"]
+- !private ["PSs9Equatable", "PhotoLibrary"]
+- !private ["PSs9Equatable", "Rear"]
+- !private ["PSs9Equatable", "UIAlertAction"]
+- !private ["PSs9Equatable", "UIAlertController"]
+- !private ["PSs9Equatable", "UIImagePickerController"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addAction"]
+- ["PSs9Equatable", "callback"]
+- !private ["PSs9Equatable", "delegate"]
+- !private ["PSs9Equatable", "dismissViewControllerAnimated"]
+- ["PSs9Equatable", "imagePickerController"]
+- ["PSs9Equatable", "imagePickerControllerDidCancel"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isCameraDeviceAvailable"]
+- ["PSs9Equatable", "navigationController"]
+- ["PSs9Equatable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSs9Equatable", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSs9Equatable", "presentViewController"]
+- ["PSs9Equatable", "showImagePickerController"]
+- ["PSs9Equatable", "showPhotoSourceSelection"]
+- !private ["PSs9Equatable", "sourceType"]
+- ["PSs9Equatable", "viewController"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "ActionSheet"]
+- !private ["PSs8Hashable", "Camera"]
+- !private ["PSs8Hashable", "Cancel"]
+- !private ["PSs8Hashable", "Default"]
+- !private ["PSs8Hashable", "PhotoLibrary"]
+- !private ["PSs8Hashable", "Rear"]
+- !private ["PSs8Hashable", "UIAlertAction"]
+- !private ["PSs8Hashable", "UIAlertController"]
+- !private ["PSs8Hashable", "UIImagePickerController"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addAction"]
+- ["PSs8Hashable", "callback"]
+- !private ["PSs8Hashable", "delegate"]
+- !private ["PSs8Hashable", "dismissViewControllerAnimated"]
+- ["PSs8Hashable", "imagePickerController"]
+- ["PSs8Hashable", "imagePickerControllerDidCancel"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isCameraDeviceAvailable"]
+- ["PSs8Hashable", "navigationController"]
+- ["PSs8Hashable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSs8Hashable", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSs8Hashable", "presentViewController"]
+- ["PSs8Hashable", "showImagePickerController"]
+- ["PSs8Hashable", "showPhotoSourceSelection"]
+- !private ["PSs8Hashable", "sourceType"]
+- ["PSs8Hashable", "viewController"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "addAction"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isCameraDeviceAvailable"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- !private ["PSo8NSCoding", "sourceType"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "isCameraDeviceAvailable"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "sourceType"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "PhotoTakingHelperCallback"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImagePickerController"]
+- ["CSo8NSObject", "UIImagePickerControllerSourceType"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "addAction"]
+- ["CSo8NSObject", "callback"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- ["CSo8NSObject", "imagePickerController"]
+- ["CSo8NSObject", "imagePickerControllerDidCancel"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isCameraDeviceAvailable"]
+- ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo8NSObject", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["CSo8NSObject", "presentViewController"]
+- ["CSo8NSObject", "showImagePickerController"]
+- ["CSo8NSObject", "showPhotoSourceSelection"]
+- !private ["CSo8NSObject", "sourceType"]
+- ["CSo8NSObject", "viewController"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "UIImagePickerController"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- ["PSo16NSObjectProtocol", "callback"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "imagePickerController"]
+- ["PSo16NSObjectProtocol", "imagePickerControllerDidCancel"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isCameraDeviceAvailable"]
+- ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16NSObjectProtocol", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- ["PSo16NSObjectProtocol", "showImagePickerController"]
+- ["PSo16NSObjectProtocol", "showPhotoSourceSelection"]
+- !private ["PSo16NSObjectProtocol", "sourceType"]
+- ["PSo16NSObjectProtocol", "viewController"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "AnyObject"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "NSObject"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "PhotoTakingHelperCallback"]
+- !private ["C21The_travel_with_parse17PhotoTakingHelper", "UIAlertAction"]
+- !private ["C21The_travel_with_parse17PhotoTakingHelper", "UIAlertController"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "UIImage"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "UIImagePickerController"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "UIImagePickerControllerSourceType"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "UIViewController"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "callback"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "deinit"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "imagePickerController"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "imagePickerControllerDidCancel"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "init"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "navigationController"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "navigationControllerSupportedInterfaceOrientations"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "showImagePickerController"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "showPhotoSourceSelection"]
+- ["C21The_travel_with_parse17PhotoTakingHelper", "viewController"]
+- !private ["PSs16RawRepresentable", "ActionSheet"]
+- !private ["PSs16RawRepresentable", "Camera"]
+- !private ["PSs16RawRepresentable", "Cancel"]
+- !private ["PSs16RawRepresentable", "Default"]
+- !private ["PSs16RawRepresentable", "PhotoLibrary"]
+- !private ["PSs16RawRepresentable", "Rear"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "Cancel"]
+- !private ["OSC18UIAlertActionStyle", "Default"]
+- !private ["CSo17UIAlertController", "addAction"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "ActionSheet"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isCameraDeviceAvailable"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- !private ["PSo21UIAppearanceContainer", "sourceType"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "isCameraDeviceAvailable"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- !private ["PSo18UIContentContainer", "sourceType"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isCameraDeviceAvailable"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- !private ["PSo18UIFocusEnvironment", "sourceType"]
+- !private ["CSo23UIImagePickerController", "delegate"]
+- !private ["CSo23UIImagePickerController", "init"]
+- !private ["CSo23UIImagePickerController", "isCameraDeviceAvailable"]
+- !private ["CSo23UIImagePickerController", "sourceType"]
+- !private ["OSC35UIImagePickerControllerCameraDevice", "Rear"]
+- !private ["PSo31UIImagePickerControllerDelegate", "UIAlertAction"]
+- !private ["PSo31UIImagePickerControllerDelegate", "UIAlertController"]
+- !private ["PSo31UIImagePickerControllerDelegate", "UIImagePickerController"]
+- !private ["PSo31UIImagePickerControllerDelegate", "callback"]
+- ["PSo31UIImagePickerControllerDelegate", "imagePickerController"]
+- ["PSo31UIImagePickerControllerDelegate", "imagePickerControllerDidCancel"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationController"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo31UIImagePickerControllerDelegate", "showImagePickerController"]
+- !private ["PSo31UIImagePickerControllerDelegate", "showPhotoSourceSelection"]
+- !private ["PSo31UIImagePickerControllerDelegate", "viewController"]
+- ["PSo31UIImagePickerControllerDelegate", ""]
+- !private ["OSC33UIImagePickerControllerSourceType", "Camera"]
+- !private ["OSC33UIImagePickerControllerSourceType", "PhotoLibrary"]
+- !private ["CSo22UINavigationController", "delegate"]
+- !private ["CSo22UINavigationController", "init"]
+- !private ["CSo22UINavigationController", "isCameraDeviceAvailable"]
+- !private ["CSo22UINavigationController", "sourceType"]
+- !private ["PSo30UINavigationControllerDelegate", "UIAlertAction"]
+- !private ["PSo30UINavigationControllerDelegate", "UIAlertController"]
+- !private ["PSo30UINavigationControllerDelegate", "UIImagePickerController"]
+- !private ["PSo30UINavigationControllerDelegate", "callback"]
+- ["PSo30UINavigationControllerDelegate", "imagePickerController"]
+- ["PSo30UINavigationControllerDelegate", "imagePickerControllerDidCancel"]
+- ["PSo30UINavigationControllerDelegate", "navigationController"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo30UINavigationControllerDelegate", "showImagePickerController"]
+- !private ["PSo30UINavigationControllerDelegate", "showPhotoSourceSelection"]
+- !private ["PSo30UINavigationControllerDelegate", "viewController"]
+- ["PSo30UINavigationControllerDelegate", ""]
+- !private ["CSo11UIResponder", "addAction"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isCameraDeviceAvailable"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- !private ["CSo11UIResponder", "sourceType"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "isCameraDeviceAvailable"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- !private ["PSo16UIStateRestoring", "sourceType"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isCameraDeviceAvailable"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "sourceType"]
+- !private ["CSo16UIViewController", "addAction"]
+- !private ["CSo16UIViewController", "delegate"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "isCameraDeviceAvailable"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- !private ["CSo16UIViewController", "sourceType"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- "C21The_travel_with_parse17PhotoTakingHelper"
+- !private "PSs16RawRepresentable"
+- !private "VSs12StaticString"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo23UIImagePickerController"
+- !private "OSC35UIImagePickerControllerCameraDevice"
+- "PSo31UIImagePickerControllerDelegate"
+- !private "OSC33UIImagePickerControllerSourceType"
+- !private "CSo22UINavigationController"
+- "PSo30UINavigationControllerDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo16UIViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/The travel with parse-Bridging-Header.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/Parse.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/ParseClientConfiguration.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConstants.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFACL.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnalytics.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFTask.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationToken.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationTokenRegistration.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnonymousUtils.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFSubclassing.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnonymousUtils+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConfig.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConfig+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFGeoPoint.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Subclass.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFRelation.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFRole.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFSession.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUserAuthenticationDelegate.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFInstallation.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFNetworkActivityIndicatorManager.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFProduct.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPurchase.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/ParseUI.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFCollectionViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/ParseUIConstants.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFImageView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFLogInView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFLogInViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFProductTableViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFQueryTableViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFPurchaseTableViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFTableViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFQueryCollectionViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFSignUpView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFSignUpViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFTextField.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/Bolts.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationTokenSource.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFExecutor.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFTaskCompletionSource.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "ba9f07c5a853bcf2c6061e049a627460"

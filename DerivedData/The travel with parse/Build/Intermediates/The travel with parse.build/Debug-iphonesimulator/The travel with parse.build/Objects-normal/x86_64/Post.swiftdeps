@@ -1,0 +1,333 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Post"
+provides-nominal:
+- "C21The_travel_with_parse4Post"
+provides-member:
+- ["C21The_travel_with_parse4Post", ""]
+provides-dynamic-lookup:
+- "initialize"
+- "image"
+- "user"
+- "parseClassName"
+- "imageFile"
+- "text"
+- "uploadPost"
+depends-top-level:
+- "PFSubclassing"
+- "PFUser"
+- "PFObject"
+- "Post"
+- !private "dispatch_once"
+- "String"
+- "UIImage"
+- "PFFile"
+- !private "dispatch_once_t"
+- !private "UIImageJPEGRepresentation"
+- !private "StringLiteralType"
+depends-member:
+- !private ["PSs9AnyObject", "PFFile"]
+- !private ["PSs9AnyObject", "PFUser"]
+- !private ["PSs9AnyObject", "UIImageJPEGRepresentation"]
+- !private ["PSs9AnyObject", "currentUser"]
+- !private ["PSs9AnyObject", "dispatch_once"]
+- ["PSs9AnyObject", "image"]
+- ["PSs9AnyObject", "imageFile"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "initialize"]
+- ["PSs9AnyObject", "object"]
+- ["PSs9AnyObject", "objectWithoutDataWithObjectId"]
+- ["PSs9AnyObject", "parseClassName"]
+- ["PSs9AnyObject", "query"]
+- ["PSs9AnyObject", "queryWithPredicate"]
+- ["PSs9AnyObject", "registerSubclass"]
+- !private ["PSs9AnyObject", "saveInBackgroundWithBlock"]
+- ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "uploadPost"]
+- ["PSs9AnyObject", "user"]
+- ["PSs9AnyObject", ""]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "PFFile"]
+- !private ["PSs11CVarArgType", "PFUser"]
+- !private ["PSs11CVarArgType", "UIImageJPEGRepresentation"]
+- !private ["PSs11CVarArgType", "currentUser"]
+- !private ["PSs11CVarArgType", "dispatch_once"]
+- ["PSs11CVarArgType", "image"]
+- ["PSs11CVarArgType", "imageFile"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "initialize"]
+- ["PSs11CVarArgType", "object"]
+- ["PSs11CVarArgType", "objectWithoutDataWithObjectId"]
+- ["PSs11CVarArgType", "parseClassName"]
+- ["PSs11CVarArgType", "query"]
+- ["PSs11CVarArgType", "queryWithPredicate"]
+- ["PSs11CVarArgType", "registerSubclass"]
+- !private ["PSs11CVarArgType", "saveInBackgroundWithBlock"]
+- ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "uploadPost"]
+- ["PSs11CVarArgType", "user"]
+- ["PSs11CVarArgType", ""]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "PFFile"]
+- !private ["PSs23CustomStringConvertible", "PFUser"]
+- !private ["PSs23CustomStringConvertible", "UIImageJPEGRepresentation"]
+- !private ["PSs23CustomStringConvertible", "currentUser"]
+- !private ["PSs23CustomStringConvertible", "dispatch_once"]
+- ["PSs23CustomStringConvertible", "image"]
+- ["PSs23CustomStringConvertible", "imageFile"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "initialize"]
+- ["PSs23CustomStringConvertible", "object"]
+- ["PSs23CustomStringConvertible", "objectWithoutDataWithObjectId"]
+- ["PSs23CustomStringConvertible", "parseClassName"]
+- ["PSs23CustomStringConvertible", "query"]
+- ["PSs23CustomStringConvertible", "queryWithPredicate"]
+- ["PSs23CustomStringConvertible", "registerSubclass"]
+- !private ["PSs23CustomStringConvertible", "saveInBackgroundWithBlock"]
+- ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "uploadPost"]
+- ["PSs23CustomStringConvertible", "user"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "PFFile"]
+- !private ["PSs9Equatable", "PFUser"]
+- !private ["PSs9Equatable", "UIImageJPEGRepresentation"]
+- !private ["PSs9Equatable", "currentUser"]
+- !private ["PSs9Equatable", "dispatch_once"]
+- ["PSs9Equatable", "image"]
+- ["PSs9Equatable", "imageFile"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "initialize"]
+- ["PSs9Equatable", "object"]
+- ["PSs9Equatable", "objectWithoutDataWithObjectId"]
+- ["PSs9Equatable", "parseClassName"]
+- ["PSs9Equatable", "query"]
+- ["PSs9Equatable", "queryWithPredicate"]
+- ["PSs9Equatable", "registerSubclass"]
+- !private ["PSs9Equatable", "saveInBackgroundWithBlock"]
+- ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "uploadPost"]
+- ["PSs9Equatable", "user"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "PFFile"]
+- !private ["PSs8Hashable", "PFUser"]
+- !private ["PSs8Hashable", "UIImageJPEGRepresentation"]
+- !private ["PSs8Hashable", "currentUser"]
+- !private ["PSs8Hashable", "dispatch_once"]
+- ["PSs8Hashable", "image"]
+- ["PSs8Hashable", "imageFile"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "initialize"]
+- ["PSs8Hashable", "object"]
+- ["PSs8Hashable", "objectWithoutDataWithObjectId"]
+- ["PSs8Hashable", "parseClassName"]
+- ["PSs8Hashable", "query"]
+- ["PSs8Hashable", "queryWithPredicate"]
+- ["PSs8Hashable", "registerSubclass"]
+- !private ["PSs8Hashable", "saveInBackgroundWithBlock"]
+- ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "uploadPost"]
+- ["PSs8Hashable", "user"]
+- ["PSs8Hashable", ""]
+- ["CSo8NSObject", "PFFile"]
+- ["CSo8NSObject", "PFObject"]
+- ["CSo8NSObject", "PFUser"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UIImageJPEGRepresentation"]
+- !private ["CSo8NSObject", "currentUser"]
+- !private ["CSo8NSObject", "dispatch_once"]
+- !private ["CSo8NSObject", "dispatch_once_t"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "imageFile"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initialize"]
+- ["CSo8NSObject", "object"]
+- ["CSo8NSObject", "objectWithoutDataWithObjectId"]
+- ["CSo8NSObject", "parseClassName"]
+- ["CSo8NSObject", "query"]
+- ["CSo8NSObject", "queryWithPredicate"]
+- ["CSo8NSObject", "registerSubclass"]
+- !private ["CSo8NSObject", "saveInBackgroundWithBlock"]
+- ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "uploadPost"]
+- ["CSo8NSObject", "user"]
+- !private ["PSo16NSObjectProtocol", "PFFile"]
+- !private ["PSo16NSObjectProtocol", "PFUser"]
+- !private ["PSo16NSObjectProtocol", "UIImageJPEGRepresentation"]
+- !private ["PSo16NSObjectProtocol", "currentUser"]
+- !private ["PSo16NSObjectProtocol", "dispatch_once"]
+- ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "imageFile"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "initialize"]
+- ["PSo16NSObjectProtocol", "object"]
+- ["PSo16NSObjectProtocol", "objectWithoutDataWithObjectId"]
+- ["PSo16NSObjectProtocol", "parseClassName"]
+- ["PSo16NSObjectProtocol", "query"]
+- ["PSo16NSObjectProtocol", "queryWithPredicate"]
+- ["PSo16NSObjectProtocol", "registerSubclass"]
+- !private ["PSo16NSObjectProtocol", "saveInBackgroundWithBlock"]
+- ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "uploadPost"]
+- ["PSo16NSObjectProtocol", "user"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["CSo6PFFile", "init"]
+- !private ["CSo6PFFile", "saveInBackgroundWithBlock"]
+- ["CSo8PFObject", "PFFile"]
+- ["CSo8PFObject", "PFObject"]
+- ["CSo8PFObject", "PFUser"]
+- ["CSo8PFObject", "String"]
+- ["CSo8PFObject", "UIImage"]
+- !private ["CSo8PFObject", "UIImageJPEGRepresentation"]
+- !private ["CSo8PFObject", "currentUser"]
+- !private ["CSo8PFObject", "dispatch_once"]
+- !private ["CSo8PFObject", "dispatch_once_t"]
+- ["CSo8PFObject", "image"]
+- ["CSo8PFObject", "imageFile"]
+- ["CSo8PFObject", "init"]
+- ["CSo8PFObject", "initialize"]
+- ["CSo8PFObject", "object"]
+- ["CSo8PFObject", "objectWithoutDataWithObjectId"]
+- ["CSo8PFObject", "parseClassName"]
+- ["CSo8PFObject", "query"]
+- ["CSo8PFObject", "queryWithPredicate"]
+- ["CSo8PFObject", "registerSubclass"]
+- !private ["CSo8PFObject", "saveInBackgroundWithBlock"]
+- ["CSo8PFObject", "text"]
+- ["CSo8PFObject", "uploadPost"]
+- ["CSo8PFObject", "user"]
+- ["CSo8PFObject", ""]
+- !private ["PSo13PFSubclassing", "PFFile"]
+- !private ["PSo13PFSubclassing", "PFUser"]
+- !private ["PSo13PFSubclassing", "UIImageJPEGRepresentation"]
+- !private ["PSo13PFSubclassing", "currentUser"]
+- !private ["PSo13PFSubclassing", "dispatch_once"]
+- !private ["PSo13PFSubclassing", "image"]
+- !private ["PSo13PFSubclassing", "imageFile"]
+- ["PSo13PFSubclassing", "object"]
+- ["PSo13PFSubclassing", "objectWithoutDataWithObjectId"]
+- ["PSo13PFSubclassing", "parseClassName"]
+- ["PSo13PFSubclassing", "query"]
+- ["PSo13PFSubclassing", "queryWithPredicate"]
+- ["PSo13PFSubclassing", "registerSubclass"]
+- !private ["PSo13PFSubclassing", "saveInBackgroundWithBlock"]
+- !private ["PSo13PFSubclassing", "user"]
+- ["PSo13PFSubclassing", ""]
+- !private ["CSo6PFUser", "currentUser"]
+- ["C21The_travel_with_parse4Post", "PFFile"]
+- ["C21The_travel_with_parse4Post", "PFObject"]
+- ["C21The_travel_with_parse4Post", "PFUser"]
+- ["C21The_travel_with_parse4Post", "String"]
+- ["C21The_travel_with_parse4Post", "UIImage"]
+- !private ["C21The_travel_with_parse4Post", "UIImageJPEGRepresentation"]
+- ["C21The_travel_with_parse4Post", "deinit"]
+- !private ["C21The_travel_with_parse4Post", "dispatch_once"]
+- !private ["C21The_travel_with_parse4Post", "dispatch_once_t"]
+- ["C21The_travel_with_parse4Post", "image"]
+- ["C21The_travel_with_parse4Post", "imageFile"]
+- ["C21The_travel_with_parse4Post", "init"]
+- ["C21The_travel_with_parse4Post", "initialize"]
+- ["C21The_travel_with_parse4Post", "object"]
+- ["C21The_travel_with_parse4Post", "objectWithoutDataWithObjectId"]
+- ["C21The_travel_with_parse4Post", "parseClassName"]
+- ["C21The_travel_with_parse4Post", "query"]
+- ["C21The_travel_with_parse4Post", "queryWithPredicate"]
+- ["C21The_travel_with_parse4Post", "registerSubclass"]
+- !private ["C21The_travel_with_parse4Post", "saveInBackgroundWithBlock"]
+- ["C21The_travel_with_parse4Post", "text"]
+- ["C21The_travel_with_parse4Post", "uploadPost"]
+- ["C21The_travel_with_parse4Post", "user"]
+- ["PSs12_Reflectable", "Some"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "CSo6PFFile"
+- "CSo8PFObject"
+- "PSo13PFSubclassing"
+- !private "CSo6PFUser"
+- "C21The_travel_with_parse4Post"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/The travel with parse-Bridging-Header.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/Parse.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/ParseClientConfiguration.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConstants.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFACL.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnalytics.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFTask.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationToken.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationTokenRegistration.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnonymousUtils.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFSubclassing.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnonymousUtils+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConfig.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConfig+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFGeoPoint.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Subclass.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFRelation.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFRole.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFSession.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUserAuthenticationDelegate.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFInstallation.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFNetworkActivityIndicatorManager.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFProduct.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPurchase.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/ParseUI.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFCollectionViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/ParseUIConstants.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFImageView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFLogInView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFLogInViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFProductTableViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFQueryTableViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFPurchaseTableViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFTableViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFQueryCollectionViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFSignUpView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFSignUpViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFTextField.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/Bolts.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationTokenSource.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFExecutor.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFTaskCompletionSource.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "b877d6bed3e7cfe6ffb51ba8ccf121a5"

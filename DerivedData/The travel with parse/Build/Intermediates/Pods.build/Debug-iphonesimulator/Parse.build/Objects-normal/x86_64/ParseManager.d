@@ -1,0 +1,44 @@
+dependencies: \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/ParseManager.m \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Target\ Support\ Files/Parse/Parse-prefix.pch \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/ParseManager.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/ParseClientConfiguration.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/PFConstants.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFDataProvider.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/LocalDataStore/OfflineStore/PFOfflineStore.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFMacros.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Bolts/Bolts/Common/BFExecutor.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/BFTask+Private.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Bolts/Bolts/Common/BFTask.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Bolts/Bolts/Common/BFCancellationToken.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFInternalUtils.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFEncoder.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/Analytics/Controller/PFAnalyticsController.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFAssert.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFCommandCache.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFEventuallyQueue.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFNetworkCommand.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/PFConfig.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFCoreManager.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFCoreDataProvider.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFFileManager.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/Installation/InstallationIdentifierStore/PFInstallationIdentifierStore.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/KeyValueCache/PFKeyValueCache.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFKeychainStore.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFLogging.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFLogger.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/MultiProcessLock/PFMultiProcessFileLockController.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/PFPinningEventuallyQueue.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/PFUser.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/PFObject.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/PFSubclassing.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/Commands/CommandRunner/URLSession/PFURLSessionCommandRunner.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/Commands/CommandRunner/PFCommandRunning.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/Persistence/PFPersistenceController.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/Persistence/Group/PFPersistenceGroup.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/Push/Manager/PFPushManager.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/PFInstallation.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/Internal/Purchase/Controller/PFPurchaseController.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/PFProduct.h \
+  /Users/apple/Desktop/程式專用/The\ travel\ with\ parse/Pods/Parse/Parse/PFFile.h

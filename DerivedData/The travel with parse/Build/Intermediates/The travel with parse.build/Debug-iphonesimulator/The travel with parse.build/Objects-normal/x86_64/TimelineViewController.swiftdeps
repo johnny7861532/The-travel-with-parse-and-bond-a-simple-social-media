@@ -1,0 +1,380 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TimelineViewController"
+provides-nominal:
+- "C21The_travel_with_parse22TimelineViewController"
+provides-member:
+- ["C21The_travel_with_parse22TimelineViewController", ""]
+provides-dynamic-lookup:
+- "tabBarController"
+- "takePhoto"
+- "viewDidLoad"
+- "photoTakingHelper"
+depends-top-level:
+- "PhotoTakingHelper"
+- !private "BooleanLiteralType"
+- "UITabBarController"
+- !private "PhotoViewController"
+- "Bool"
+- !private "UIImage"
+- "UITabBarControllerDelegate"
+- "TimelineViewController"
+- !private "Post"
+- "UIViewController"
+depends-member:
+- !private ["PSs9AnyObject", "PhotoTakingHelper"]
+- !private ["PSs9AnyObject", "Post"]
+- !private ["PSs9AnyObject", "delegate"]
+- !private ["PSs9AnyObject", "image"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "photoTakingHelper"]
+- ["PSs9AnyObject", "tabBarController"]
+- ["PSs9AnyObject", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSs9AnyObject", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSs9AnyObject", "takePhoto"]
+- !private ["PSs9AnyObject", "uploadPost"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "PhotoTakingHelper"]
+- !private ["PSs11CVarArgType", "Post"]
+- !private ["PSs11CVarArgType", "delegate"]
+- !private ["PSs11CVarArgType", "image"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "photoTakingHelper"]
+- ["PSs11CVarArgType", "tabBarController"]
+- ["PSs11CVarArgType", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSs11CVarArgType", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSs11CVarArgType", "takePhoto"]
+- !private ["PSs11CVarArgType", "uploadPost"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "PhotoTakingHelper"]
+- !private ["PSs23CustomStringConvertible", "Post"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- !private ["PSs23CustomStringConvertible", "image"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "photoTakingHelper"]
+- ["PSs23CustomStringConvertible", "tabBarController"]
+- ["PSs23CustomStringConvertible", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSs23CustomStringConvertible", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSs23CustomStringConvertible", "takePhoto"]
+- !private ["PSs23CustomStringConvertible", "uploadPost"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "PhotoTakingHelper"]
+- !private ["PSs9Equatable", "Post"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "delegate"]
+- !private ["PSs9Equatable", "image"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "photoTakingHelper"]
+- ["PSs9Equatable", "tabBarController"]
+- ["PSs9Equatable", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSs9Equatable", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSs9Equatable", "takePhoto"]
+- !private ["PSs9Equatable", "uploadPost"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "PhotoTakingHelper"]
+- !private ["PSs8Hashable", "Post"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "delegate"]
+- !private ["PSs8Hashable", "image"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "photoTakingHelper"]
+- ["PSs8Hashable", "tabBarController"]
+- ["PSs8Hashable", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSs8Hashable", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSs8Hashable", "takePhoto"]
+- !private ["PSs8Hashable", "uploadPost"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "PhotoTakingHelper"]
+- !private ["PSo8NSCoding", "Post"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "photoTakingHelper"]
+- ["PSo8NSCoding", "tabBarController"]
+- ["PSo8NSCoding", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo8NSCoding", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo8NSCoding", "takePhoto"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "PhotoTakingHelper"]
+- !private ["PSo26NSExtensionRequestHandling", "Post"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "photoTakingHelper"]
+- ["PSo26NSExtensionRequestHandling", "tabBarController"]
+- ["PSo26NSExtensionRequestHandling", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo26NSExtensionRequestHandling", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo26NSExtensionRequestHandling", "takePhoto"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "PhotoTakingHelper"]
+- !private ["CSo8NSObject", "PhotoViewController"]
+- !private ["CSo8NSObject", "Post"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UITabBarController"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "photoTakingHelper"]
+- ["CSo8NSObject", "tabBarController"]
+- ["CSo8NSObject", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo8NSObject", "tabBarControllerSupportedInterfaceOrientations"]
+- ["CSo8NSObject", "takePhoto"]
+- !private ["CSo8NSObject", "uploadPost"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "PhotoTakingHelper"]
+- !private ["PSo16NSObjectProtocol", "Post"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "photoTakingHelper"]
+- ["PSo16NSObjectProtocol", "tabBarController"]
+- ["PSo16NSObjectProtocol", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16NSObjectProtocol", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo16NSObjectProtocol", "takePhoto"]
+- !private ["PSo16NSObjectProtocol", "uploadPost"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo8PFObject", "image"]
+- !private ["CSo8PFObject", "init"]
+- !private ["CSo8PFObject", "uploadPost"]
+- !private ["PSo13PFSubclassing", "image"]
+- !private ["PSo13PFSubclassing", "init"]
+- !private ["PSo13PFSubclassing", "uploadPost"]
+- !private ["C21The_travel_with_parse17PhotoTakingHelper", "init"]
+- !private ["C21The_travel_with_parse4Post", "image"]
+- !private ["C21The_travel_with_parse4Post", "init"]
+- !private ["C21The_travel_with_parse4Post", "uploadPost"]
+- ["C21The_travel_with_parse22TimelineViewController", "Bool"]
+- ["C21The_travel_with_parse22TimelineViewController", "PhotoTakingHelper"]
+- !private ["C21The_travel_with_parse22TimelineViewController", "PhotoViewController"]
+- !private ["C21The_travel_with_parse22TimelineViewController", "Post"]
+- !private ["C21The_travel_with_parse22TimelineViewController", "UIImage"]
+- ["C21The_travel_with_parse22TimelineViewController", "UITabBarController"]
+- ["C21The_travel_with_parse22TimelineViewController", "UIViewController"]
+- ["C21The_travel_with_parse22TimelineViewController", "deinit"]
+- ["C21The_travel_with_parse22TimelineViewController", "init"]
+- ["C21The_travel_with_parse22TimelineViewController", "photoTakingHelper"]
+- ["C21The_travel_with_parse22TimelineViewController", "tabBarController"]
+- ["C21The_travel_with_parse22TimelineViewController", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["C21The_travel_with_parse22TimelineViewController", "tabBarControllerSupportedInterfaceOrientations"]
+- ["C21The_travel_with_parse22TimelineViewController", "takePhoto"]
+- ["C21The_travel_with_parse22TimelineViewController", "viewDidLoad"]
+- !private ["PSo21UIAppearanceContainer", "PhotoTakingHelper"]
+- !private ["PSo21UIAppearanceContainer", "Post"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "photoTakingHelper"]
+- ["PSo21UIAppearanceContainer", "tabBarController"]
+- ["PSo21UIAppearanceContainer", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo21UIAppearanceContainer", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo21UIAppearanceContainer", "takePhoto"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "PhotoTakingHelper"]
+- !private ["PSo18UIContentContainer", "Post"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "photoTakingHelper"]
+- ["PSo18UIContentContainer", "tabBarController"]
+- ["PSo18UIContentContainer", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UIContentContainer", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo18UIContentContainer", "takePhoto"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "PhotoTakingHelper"]
+- !private ["PSo18UIFocusEnvironment", "Post"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "photoTakingHelper"]
+- ["PSo18UIFocusEnvironment", "tabBarController"]
+- ["PSo18UIFocusEnvironment", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UIFocusEnvironment", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo18UIFocusEnvironment", "takePhoto"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo31UIImagePickerControllerDelegate", "init"]
+- !private ["PSo30UINavigationControllerDelegate", "init"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "PhotoTakingHelper"]
+- !private ["CSo11UIResponder", "PhotoViewController"]
+- !private ["CSo11UIResponder", "Post"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UITabBarController"]
+- ["CSo11UIResponder", "UIViewController"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "photoTakingHelper"]
+- ["CSo11UIResponder", "tabBarController"]
+- ["CSo11UIResponder", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo11UIResponder", "tabBarControllerSupportedInterfaceOrientations"]
+- ["CSo11UIResponder", "takePhoto"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "PhotoTakingHelper"]
+- !private ["PSo16UIStateRestoring", "Post"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "photoTakingHelper"]
+- ["PSo16UIStateRestoring", "tabBarController"]
+- ["PSo16UIStateRestoring", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16UIStateRestoring", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo16UIStateRestoring", "takePhoto"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo18UITabBarController", "delegate"]
+- !private ["PSo26UITabBarControllerDelegate", "PhotoTakingHelper"]
+- !private ["PSo26UITabBarControllerDelegate", "Post"]
+- !private ["PSo26UITabBarControllerDelegate", "photoTakingHelper"]
+- ["PSo26UITabBarControllerDelegate", "tabBarController"]
+- ["PSo26UITabBarControllerDelegate", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo26UITabBarControllerDelegate", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["PSo26UITabBarControllerDelegate", "takePhoto"]
+- ["PSo26UITabBarControllerDelegate", ""]
+- !private ["PSo16UITabBarDelegate", "delegate"]
+- !private ["PSo18UITraitEnvironment", "PhotoTakingHelper"]
+- !private ["PSo18UITraitEnvironment", "Post"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "photoTakingHelper"]
+- ["PSo18UITraitEnvironment", "tabBarController"]
+- ["PSo18UITraitEnvironment", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo18UITraitEnvironment", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo18UITraitEnvironment", "takePhoto"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "PhotoTakingHelper"]
+- !private ["CSo16UIViewController", "PhotoViewController"]
+- !private ["CSo16UIViewController", "Post"]
+- !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UITabBarController"]
+- ["CSo16UIViewController", "UIViewController"]
+- !private ["CSo16UIViewController", "deinit"]
+- !private ["CSo16UIViewController", "delegate"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "photoTakingHelper"]
+- ["CSo16UIViewController", "tabBarController"]
+- ["CSo16UIViewController", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo16UIViewController", "tabBarControllerSupportedInterfaceOrientations"]
+- ["CSo16UIViewController", "takePhoto"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo8PFObject"
+- !private "PSo13PFSubclassing"
+- !private "C21The_travel_with_parse17PhotoTakingHelper"
+- !private "C21The_travel_with_parse4Post"
+- "C21The_travel_with_parse22TimelineViewController"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- !private "PSo31UIImagePickerControllerDelegate"
+- !private "PSo30UINavigationControllerDelegate"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo18UITabBarController"
+- "PSo26UITabBarControllerDelegate"
+- !private "PSo16UITabBarDelegate"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/The travel with parse/The travel with parse-Bridging-Header.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/Parse.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/ParseClientConfiguration.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConstants.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFACL.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnalytics.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFTask.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationToken.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationTokenRegistration.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnonymousUtils.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFSubclassing.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFAnonymousUtils+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFCloud+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConfig.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFConfig+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFFile+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFGeoPoint.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Subclass.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFObject+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFQuery+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFRelation.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFRole.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFSession.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUser+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFUserAuthenticationDelegate.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFInstallation.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFNetworkActivityIndicatorManager.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush+Synchronous.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPush+Deprecated.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFProduct.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Parse/PFPurchase.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/ParseUI.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFCollectionViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/ParseUIConstants.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFImageView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFLogInView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFLogInViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFProductTableViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFQueryTableViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFPurchaseTableViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFTableViewCell.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFQueryCollectionViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFSignUpView.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFSignUpViewController.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/ParseUI/PFTextField.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/Bolts.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFCancellationTokenSource.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFExecutor.h"
+- "/Users/apple/Desktop/\u7A0B\u5F0F\u5C08\u7528/The travel with parse/Pods/Headers/Public/Bolts/BFTaskCompletionSource.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "1807069908666839fc68dcd49e86b399"

@@ -1,0 +1,6 @@
+framework module Pods_The_travel_with_parse {
+  umbrella header "Pods-The travel with parse-umbrella.h"
+
+  export *
+  module * { export * }
+}
