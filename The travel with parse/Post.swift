@@ -11,8 +11,9 @@ import Bond
 
 class Post: PFObject, PFSubclassing{
      var image: Observable<UIImage?> = Observable(nil)
+     var likes: Observable<[PFUser]?> = Observable(nil)
      var photoUploadTask: UIBackgroundTaskIdentifier?
-     @NSManaged var imageFile: PFFile?
+         @NSManaged var imageFile: PFFile?
      @NSManaged var user: PFUser?
      @NSManaged var text: PFObject?
 static func parseClassName() -> String{
@@ -67,4 +68,55 @@ static func parseClassName() -> String{
         
 
 }
-}
+   func fetchLikes(){
+    if (likes.value != nil){
+    return
+    }
+    ParseHelper.likesForPost(self, completionBlock: {( var likes:[PFObject]?, error:NSError?)->Void in
+        
+        if let error = error {
+            
+        }
+        // filter likes that are from users that no longer exist
+        likes = likes?.filter { like in like[ParseHelper.ParseLikeFromUser] != nil }
+        
+        self.likes.value = likes?.map { like in
+            let like = like as! PFObject
+            let fromUser = like[ParseHelper.ParseLikeFromUser] as! PFUser
+            
+            return fromUser
+        }
+
+    
+    })
+    
+    
+    }
+    func doesUserLikePost(user: PFUser)->Bool{
+        if let likes = likes.value{
+        
+        return likes.contains(user)
+        
+        }else{
+        return false
+        
+        }
+    
+    }
+    func toggleLikePost(user:PFUser) {
+        if doesUserLikePost(user){
+            likes.value = likes.value?.filter{ $0 != user}
+            ParseHelper.unlikePost(user, post: self)
+        }else{
+            likes.value?.append(user)
+            ParseHelper.likePost(user, post: self)
+            
+        
+        }
+    
+    }
+    
+    
+    
+    
+    }

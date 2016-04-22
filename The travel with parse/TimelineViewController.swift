@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ConvenienceKit
 
 
 
@@ -77,6 +78,7 @@ extension TimelineViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCellWithIdentifier("PostCell")as! PostTableViewCell
         let post = posts[indexPath.row]
         post.downloadImage()
+        post.fetchLikes()
         cell.post = post
         
         return cell

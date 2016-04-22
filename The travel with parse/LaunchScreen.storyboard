@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +17,32 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICON.001 2" translatesAutoresizingMaskIntoConstraints="NO" id="bSU-p3-22h">
+                                <rect key="frame" x="0.0" y="376" width="600" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="gvd-hg-qi3"/>
+                                    <constraint firstAttribute="height" constant="162" id="jvd-B7-xad"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="162" id="mwo-MJ-4bD"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ICON.001" translatesAutoresizingMaskIntoConstraints="NO" id="IlU-IN-wkY">
+                                <rect key="frame" x="156" y="143" width="288" height="193"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="193" id="1dX-f4-hBq"/>
+                                    <constraint firstAttribute="width" constant="288" id="ZeN-0o-An8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2301479341706491" green="0.76274277217431474" blue="0.67617458580859813" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bSU-p3-22h" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="0Fq-Ow-kHw"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="bSU-p3-22h" secondAttribute="bottom" constant="62" id="Dkd-yf-lk6"/>
+                            <constraint firstItem="IlU-IN-wkY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="136" id="SFp-v9-Ncg"/>
+                            <constraint firstItem="bSU-p3-22h" firstAttribute="top" secondItem="IlU-IN-wkY" secondAttribute="bottom" constant="40" id="ZP6-kp-kDt"/>
+                            <constraint firstAttribute="trailing" secondItem="bSU-p3-22h" secondAttribute="trailing" id="Zen-Id-m5A"/>
+                            <constraint firstItem="IlU-IN-wkY" firstAttribute="centerX" secondItem="bSU-p3-22h" secondAttribute="centerX" id="dis-0k-B0b"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +50,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ICON.001" width="288" height="193"/>
+        <image name="ICON.001 2" width="609" height="181"/>
+    </resources>
 </document>
