@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "The travel with parse/ParseHelper.swift"
-            timestampString = "482656772.709914"
+            timestampString = "482989470.632117"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "unlikePost(_:post:)"
             landmarkType = "5">
          </BreakpointContent>

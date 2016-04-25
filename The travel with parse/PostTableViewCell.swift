@@ -9,6 +9,7 @@
 import UIKit
 import Bond
 
+
 class PostTableViewCell: UITableViewCell {
 
 @IBOutlet weak var postImageView: UIImageView!
@@ -39,6 +40,7 @@ var likeDisposable = DisposableType?()
     self.likesLabel.text = ""
     self.likesButton.selected = false
     self.likesIconImageView.hidden = true
+    
         
         
         }

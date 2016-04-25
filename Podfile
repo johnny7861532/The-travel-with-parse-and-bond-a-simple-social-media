@@ -1,10 +1,10 @@
 target 'The travel with parse' do
+ pod 'Parse'
     
-    pod 'Parse'
+ pod 'ParseUI'
     
-    pod 'ParseUI'
-    
-    pod 'Bond'
-    
-    use_frameworks! //
+ pod 'Bond'
+
+ pod 'ConvenienceKit'
+use_frameworks! //
 end

@@ -20,6 +20,7 @@ static func parseClassName() -> String{
      return "Post"
     
     }
+    
     override class func initialize(){
         var onceToken : dispatch_once_t = 0;
         dispatch_once(&onceToken){
