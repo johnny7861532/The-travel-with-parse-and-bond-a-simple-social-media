@@ -136,6 +136,7 @@ extension FriendSearchViewController: UISearchBarDelegate{
     }
 }
 
+
 // MARK: FriendSearchTableViewCell Delegate
 extension FriendSearchViewController: FriendSearchTableViewCellDelegate{
     func cell(cell: FriendSearchTableViewCell, didSelectFollowUser user: PFUser){
@@ -147,7 +148,9 @@ extension FriendSearchViewController: FriendSearchTableViewCellDelegate{
         if var followingUsers = followingUsers{
         ParseHelper.removeFollowRelationshipFromUser(PFUser.currentUser()!, toUser: user)
         // update local cache
-        followingUsers = followingUsers.filter { $0.username != user.username }
+        
+        removeObject(user, fromArray: &followingUsers)
+        
         
         self.followingUsers = followingUsers
         }

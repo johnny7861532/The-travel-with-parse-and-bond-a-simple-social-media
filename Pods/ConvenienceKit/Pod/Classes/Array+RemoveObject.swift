@@ -9,11 +9,8 @@
 import Foundation
 
 // Thanks to Martin R: http://stackoverflow.com/questions/24938948/array-extension-to-remove-object-by-value
-extension RangeReplaceableCollectionType where Generator.Element : Equatable {
-  // Remove first collection element that is equal to the given `object`:
-  mutating func removeObject(object : Generator.Element) {
-    if let index = self.indexOf(object) {
-      self.removeAtIndex(index)
+public func removeObject<T : Equatable>(object: T, inout fromArray array: [T])
+	{
+        let index = array.indexOf(object)
+    	  array.removeAtIndex(index!)
     }
-  }
-}

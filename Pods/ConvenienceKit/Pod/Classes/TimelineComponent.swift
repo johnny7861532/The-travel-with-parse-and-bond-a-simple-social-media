@@ -86,13 +86,11 @@ public class TimelineComponent <T: Equatable, S: TimelineComponentTarget where S
   
   :param: object The object that shall be removed.
   */
-  public func removeObject(object: T) {
-    self.content.removeObject(object)
-    currentRange.endIndex = self.currentRange.endIndex - 1
-    target?.tableView.reloadData()
-  }
-  
-  /**
+    public func removeObject(object: T) {
+        ConvenienceKit.removeObject(object, fromArray: &self.content)
+        currentRange.endIndex = self.currentRange.endIndex - 1
+        target?.tableView.reloadData()
+    }  /**
   Triggers an initial request for data, if no data has been loaded so far.
   */
   public func loadInitialIfRequired() {
