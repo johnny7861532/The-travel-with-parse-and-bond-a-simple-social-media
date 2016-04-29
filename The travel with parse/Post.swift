@@ -8,12 +8,14 @@
 
 import Foundation
 import Bond
+import ConvenienceKit
 
 class Post: PFObject, PFSubclassing{
      var image: Observable<UIImage?> = Observable(nil)
      var likes: Observable<[PFUser]?> = Observable(nil)
      var photoUploadTask: UIBackgroundTaskIdentifier?
-         @NSManaged var imageFile: PFFile?
+     static var imageCache: NSCacheSwift<String, UIImage>!
+     @NSManaged var imageFile: PFFile?
      @NSManaged var user: PFUser?
      @NSManaged var text: PFObject?
 static func parseClassName() -> String{
@@ -26,6 +28,8 @@ static func parseClassName() -> String{
         dispatch_once(&onceToken){
         // inform Parse about this subclass
         self.registerSubclass()
+        
+        Post.imageCache = NSCacheSwift<String, UIImage>()
         
         }
     
@@ -43,6 +47,9 @@ static func parseClassName() -> String{
             user = PFUser.currentUser()
             self.imageFile = imageFile
             saveInBackgroundWithBlock{(success: Bool, error: NSError?) -> Void in
+                if let error = error{
+                ErrorHandling.defaultErrorHandler(error)
+                }
             UIApplication.sharedApplication().endBackgroundTask(self.photoUploadTask!)
             }
         
@@ -55,12 +62,19 @@ static func parseClassName() -> String{
     
     }
     func downloadImage(){
+        image.value = Post.imageCache[self.imageFile!.name]
         // if image is not downloaded yet, get it
         if (image.value == nil){
             imageFile?.getDataInBackgroundWithBlock{(data: NSData?, error:NSError?) -> Void in
+                if let error = error{
+                ErrorHandling.defaultErrorHandler(error)
+                
+                }
                 if let data = data{
                     let image = UIImage(data: data, scale:1.0)!
                     self.image.value = image
+                    
+                    Post.imageCache[self.imageFile!.name] = image
                     
                 }
             }
@@ -76,6 +90,7 @@ static func parseClassName() -> String{
     ParseHelper.likesForPost(self, completionBlock: {( var likes:[PFObject]?, error:NSError?)->Void in
         
         if let error = error {
+       ErrorHandling.defaultErrorHandler(error)
             
         }
         // filter likes that are from users that no longer exist

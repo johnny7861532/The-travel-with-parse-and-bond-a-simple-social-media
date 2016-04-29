@@ -8,7 +8,7 @@
 
 import Foundation
 
-// Thanks to Martin R: http://stackoverflow.com/questions/24938948/array-extension-to-remove-object-by-value
+
 public func removeObject<T : Equatable>(object: T, inout fromArray array: [T])
 	{
         let index = array.indexOf(object)

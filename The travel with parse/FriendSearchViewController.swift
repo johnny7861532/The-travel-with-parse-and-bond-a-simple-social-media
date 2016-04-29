@@ -67,6 +67,10 @@ class FriendSearchViewController: UIViewController {
     func updateList(results: [PFObject]?, error: NSError?){
         self.users = results as? [PFUser] ?? []
         self.tableView.reloadData()
+        if let error = error {
+        ErrorHandling.defaultErrorHandler(error)
+        
+        }
     }
     // MARK: View Lifecycle
     override func viewWillAppear(animated: Bool) {
@@ -76,11 +80,18 @@ class FriendSearchViewController: UIViewController {
         // fill the cache of a user's followees
         ParseHelper.getFollowingUsersForUser(PFUser.currentUser()!){
             (results: [PFObject]?, error:NSError?) -> Void in
+            if let error = error {
+            ErrorHandling.defaultErrorHandler(error)
+            
+            }
             let relations = results as? [PFObject]! ?? []
             // use map to extract the User from a Follow object
             self.followingUsers = relations.map{ $0.objectForKey(ParseHelper.ParseFollowToUser)as! PFUser
             }
+            if let error = error {
+            ErrorHandling.defaultErrorHandler(error)
             
+            }
         }
     }
     

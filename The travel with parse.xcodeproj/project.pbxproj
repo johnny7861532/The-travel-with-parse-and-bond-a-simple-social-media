@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186C74AC1CD087D8001CB522 /* errorHandlingCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C74AB1CD087D8001CB522 /* errorHandlingCallback.swift */; };
 		1875A4C41CC9EF8000D90B3F /* FriendSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875A4C31CC9EF8000D90B3F /* FriendSearchTableViewCell.swift */; };
 		18BADF781CC7E578007A7431 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BADF771CC7E578007A7431 /* Images.xcassets */; };
 		18BADF7C1CC8808A007A7431 /* ConvenienceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BADF791CC87C20007A7431 /* ConvenienceKit.framework */; };
@@ -25,11 +26,13 @@
 		18D6007B1CC0E42F00F57C11 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6006B1CC0E42F00F57C11 /* TimelineViewController.swift */; };
 		18D6007C1CC0E42F00F57C11 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6006C1CC0E42F00F57C11 /* PhotoViewController.swift */; };
 		18D6007D1CC0E42F00F57C11 /* FriendSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6006D1CC0E42F00F57C11 /* FriendSearchViewController.swift */; };
+		18F1A3581CD30D0700523062 /* PostSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1A3571CD30D0700523062 /* PostSectionHeaderView.swift */; };
 		D61227BB9D5859A5B2A21FC4 /* Pods_The_travel_with_parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CBA6CDFC44E36382DF11FD /* Pods_The_travel_with_parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		186485871CB62E380008D5E8 /* The travel with parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The travel with parse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C74AB1CD087D8001CB522 /* errorHandlingCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = errorHandlingCallback.swift; sourceTree = "<group>"; };
 		1875A4C31CC9EF8000D90B3F /* FriendSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearchTableViewCell.swift; sourceTree = "<group>"; };
 		18BADF771CC7E578007A7431 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18BADF791CC87C20007A7431 /* ConvenienceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConvenienceKit.framework; path = "../../Library/Developer/Xcode/DerivedData/The_travel_with_parse-aiqtkajkfrwjxigolbccvtdkhrhm/Build/Products/Debug-iphonesimulator/ConvenienceKit/ConvenienceKit.framework"; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		18D6006B1CC0E42F00F57C11 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		18D6006C1CC0E42F00F57C11 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		18D6006D1CC0E42F00F57C11 /* FriendSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearchViewController.swift; sourceTree = "<group>"; };
+		18F1A3571CD30D0700523062 /* PostSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostSectionHeaderView.swift; sourceTree = "<group>"; };
 		9CEBB1D16C2F6746BDACFADD /* Pods-The travel with parse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The travel with parse.release.xcconfig"; path = "Pods/Target Support Files/Pods-The travel with parse/Pods-The travel with parse.release.xcconfig"; sourceTree = "<group>"; };
 		BDCD8E0108B029E0EE9BA0B3 /* Pods-The travel with parse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The travel with parse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The travel with parse/Pods-The travel with parse.debug.xcconfig"; sourceTree = "<group>"; };
 		F9CBA6CDFC44E36382DF11FD /* Pods_The_travel_with_parse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_travel_with_parse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +95,7 @@
 				18BADF771CC7E578007A7431 /* Images.xcassets */,
 				18D6007E1CC1CB6500F57C11 /* Account */,
 				18D6005E1CC0E42F00F57C11 /* Main.storyboard */,
+				18F1A3571CD30D0700523062 /* PostSectionHeaderView.swift */,
 				18D6005F1CC0E42F00F57C11 /* LaunchScreen.storyboard */,
 				18D600601CC0E42F00F57C11 /* Info.plist */,
 				18D600611CC0E42F00F57C11 /* PhotoTakingHelper.swift */,
@@ -101,6 +106,7 @@
 				18D600651CC0E42F00F57C11 /* The travel with parse-Bridging-Header.h */,
 				18D6006A1CC0E42F00F57C11 /* AppDelegate.swift */,
 				18D6006B1CC0E42F00F57C11 /* TimelineViewController.swift */,
+				186C74AB1CD087D8001CB522 /* errorHandlingCallback.swift */,
 				18D6006C1CC0E42F00F57C11 /* PhotoViewController.swift */,
 				18D6006D1CC0E42F00F57C11 /* FriendSearchViewController.swift */,
 			);
@@ -271,7 +277,9 @@
 				1875A4C41CC9EF8000D90B3F /* FriendSearchTableViewCell.swift in Sources */,
 				18D600751CC0E42F00F57C11 /* PostTableViewCell.swift in Sources */,
 				18D600781CC0E42F00F57C11 /* ResetPasswordViewController.swift in Sources */,
+				18F1A3581CD30D0700523062 /* PostSectionHeaderView.swift in Sources */,
 				18D6007B1CC0E42F00F57C11 /* TimelineViewController.swift in Sources */,
+				186C74AC1CD087D8001CB522 /* errorHandlingCallback.swift in Sources */,
 				18D6007C1CC0E42F00F57C11 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
