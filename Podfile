@@ -1,3 +1,6 @@
+use_frameworks!
+
+
 target 'The travel with parse' do
  pod 'Parse'
     
@@ -6,5 +9,6 @@ target 'The travel with parse' do
  pod 'Bond'
 
  pod 'ConvenienceKit'
-use_frameworks! //
+ 
+ pod 'DateTools'
 end

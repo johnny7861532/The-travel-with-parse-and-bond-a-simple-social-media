@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class PostSectionHeaderView: UITableViewCell {
 
     @IBOutlet weak var usernameLabel: UILabel!
@@ -17,7 +18,7 @@ class PostSectionHeaderView: UITableViewCell {
         didSet{
             if let post = post{
             usernameLabel.text = post.user?.username
-            
+            postTimeLabel.text = post.createdAt?.shortTimeAgoSinceDate(NSDate()) ?? ""
             }
         
         }

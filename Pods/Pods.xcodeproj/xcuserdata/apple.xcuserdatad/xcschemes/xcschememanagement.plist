@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DateTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Parse.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,12 +52,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>538F27921C7C12C79624FD56872835BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>80076C510C29F960587E43C0597ECBD5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>802D3B1C197FEA0861F5931F7ED43355</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AFEDA8059B169E4068B6DCC4D2F0B0E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -68,11 +83,6 @@
 			<true/>
 		</dict>
 		<key>E1F78B1C5F8F2CCD0E68552EAF2B9B52</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E24B16EB1F59EDA3330D08C49A2ACE2C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
