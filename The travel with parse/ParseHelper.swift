@@ -20,7 +20,7 @@ class ParseHelper {
     static let ParseLikeFromUser = "fromUser"
     // Post Relation
     static let ParsePostUser = "user"
-    static let ParsePostCreateAt = "createAt"
+    static let ParsePostUpdatedAt = "updatedAt"
     // Favor Relation
     static let ParseFavorContentClass = "FavorContent"
     static let ParseFavorContentFromUser = "fromUser"
@@ -44,9 +44,9 @@ class ParseHelper {
         
         let query = PFQuery.orQueryWithSubqueries([postsFromFollowedUsers!, postsFromThisUser!])
         query.includeKey(ParsePostUser)
-        query.orderByDescending(ParsePostCreateAt)
+        query.orderByDescending(ParsePostUpdatedAt)
         query.skip = range.startIndex
-        query.limit = range.endIndex - range.startIndex
+        query.limit = range.startIndex - range.endIndex
         
         query.findObjectsInBackgroundWithBlock(completionBlock)
         

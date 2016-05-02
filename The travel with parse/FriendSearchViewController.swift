@@ -96,12 +96,10 @@ class FriendSearchViewController: UIViewController {
     }
     
     //鍵盤自動收起
-    func textFieldShouldReturn(textField: UITextField) -> Bool{
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
-        
     }
-
     
 }
 // MARK: TableView Data Source

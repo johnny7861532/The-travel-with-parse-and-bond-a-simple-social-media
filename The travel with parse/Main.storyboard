@@ -573,6 +573,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="Yvt-AY-tSP" id="btV-5p-Tar"/>
+                                    <outlet property="delegate" destination="Yvt-AY-tSP" id="XVY-NJ-8EC"/>
                                 </connections>
                             </tableView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="7GF-8K-g8O">
@@ -625,11 +626,11 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="PostCell" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PostCell" rowHeight="470" id="c5T-dB-PJ6" customClass="PostTableViewCell" customModule="The_travel_with_parse">
                                         <rect key="frame" x="0.0" y="28" width="600" height="470"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="c5T-dB-PJ6" id="DcZ-Pl-ZG7">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c5T-dB-PJ6" id="DcZ-Pl-ZG7">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="470"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ptW-kA-7wi">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ptW-kA-7wi">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="344"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="344" id="3QQ-Np-5A9"/>
@@ -638,7 +639,7 @@
                                                         <constraint firstAttribute="width" constant="600" id="hnQ-bP-OTO"/>
                                                     </constraints>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CH1-XA-Jhr">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CH1-XA-Jhr">
                                                     <rect key="frame" x="544" y="401" width="44" height="44"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="44" id="F7F-mg-zi3"/>
@@ -651,7 +652,7 @@
                                                         <action selector="likesButtonTapped:" destination="c5T-dB-PJ6" eventType="touchUpInside" id="h6c-8y-1Y8"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyU-ZX-Gfa">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyU-ZX-Gfa">
                                                     <rect key="frame" x="8" y="412" width="44" height="44"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="44" id="NGa-wt-Sic"/>
@@ -662,10 +663,13 @@
                                                         <action selector="moreButtonTapped:" destination="c5T-dB-PJ6" eventType="touchUpInside" id="Cp6-KP-xTl"/>
                                                     </connections>
                                                 </button>
-                                                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="heart_selected" translatesAutoresizingMaskIntoConstraints="NO" id="01v-kS-Rov">
-                                                    <rect key="frame" x="20" y="352" width="20" height="20"/>
+                                                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart_selected" translatesAutoresizingMaskIntoConstraints="NO" id="01v-kS-Rov">
+                                                    <rect key="frame" x="20" y="352" width="25" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="25" id="jKG-eg-6XE"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Test User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlr-Es-vY7">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlr-Es-vY7">
                                                     <rect key="frame" x="48" y="352" width="78" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="euf-PW-bHy"/>
@@ -677,7 +681,9 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="01v-kS-Rov" firstAttribute="top" secondItem="ptW-kA-7wi" secondAttribute="bottom" constant="8" symbolic="YES" id="226-ha-UPc"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="vyU-ZX-Gfa" secondAttribute="bottom" constant="10" id="2fs-Bz-7Be"/>
+                                                <constraint firstItem="01v-kS-Rov" firstAttribute="centerY" secondItem="jlr-Es-vY7" secondAttribute="centerY" id="4vt-HX-cNp"/>
                                                 <constraint firstItem="ptW-kA-7wi" firstAttribute="top" secondItem="DcZ-Pl-ZG7" secondAttribute="top" id="9Ze-J8-f5g"/>
                                                 <constraint firstItem="vyU-ZX-Gfa" firstAttribute="top" secondItem="jlr-Es-vY7" secondAttribute="bottom" constant="38" id="IeP-5S-01j"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="jlr-Es-vY7" secondAttribute="trailing" constant="50" id="Jn8-O7-6QT"/>
@@ -685,17 +691,14 @@
                                                 <constraint firstAttribute="trailing" secondItem="ptW-kA-7wi" secondAttribute="trailing" id="UJo-uu-ae1"/>
                                                 <constraint firstItem="vyU-ZX-Gfa" firstAttribute="baseline" secondItem="CH1-XA-Jhr" secondAttribute="baseline" id="Uog-Xq-SdS"/>
                                                 <constraint firstItem="vyU-ZX-Gfa" firstAttribute="leading" secondItem="DcZ-Pl-ZG7" secondAttribute="leadingMargin" constant="7" id="VKW-pr-9iu"/>
-                                                <constraint firstItem="jlr-Es-vY7" firstAttribute="leading" secondItem="01v-kS-Rov" secondAttribute="trailing" constant="20" id="YOv-Zs-VhK"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="CH1-XA-Jhr" secondAttribute="trailing" constant="4" id="Z7y-ee-GT6"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="CH1-XA-Jhr" secondAttribute="bottom" constant="16" id="Zqo-4c-PeA"/>
-                                                <constraint firstItem="jlr-Es-vY7" firstAttribute="leading" secondItem="01v-kS-Rov" secondAttribute="trailing" constant="8" symbolic="YES" id="bsw-Dp-qhf"/>
-                                                <constraint firstItem="01v-kS-Rov" firstAttribute="top" secondItem="jlr-Es-vY7" secondAttribute="top" id="fWE-cY-B8v"/>
-                                                <constraint firstItem="01v-kS-Rov" firstAttribute="top" secondItem="ptW-kA-7wi" secondAttribute="bottom" constant="8" symbolic="YES" id="gVz-gx-TIV"/>
+                                                <constraint firstItem="jlr-Es-vY7" firstAttribute="leading" secondItem="01v-kS-Rov" secondAttribute="trailing" constant="3" id="gDt-YK-4t3"/>
                                                 <constraint firstItem="ptW-kA-7wi" firstAttribute="leading" secondItem="DcZ-Pl-ZG7" secondAttribute="leading" id="h2D-5t-mDz"/>
-                                                <constraint firstItem="01v-kS-Rov" firstAttribute="centerX" secondItem="vyU-ZX-Gfa" secondAttribute="centerX" id="hOC-Ng-aX3"/>
+                                                <constraint firstItem="01v-kS-Rov" firstAttribute="top" secondItem="jlr-Es-vY7" secondAttribute="top" id="hUA-yp-8zb"/>
+                                                <constraint firstItem="01v-kS-Rov" firstAttribute="leading" secondItem="DcZ-Pl-ZG7" secondAttribute="leadingMargin" constant="12" id="j86-f8-a8n"/>
                                                 <constraint firstItem="vyU-ZX-Gfa" firstAttribute="leading" secondItem="DcZ-Pl-ZG7" secondAttribute="leadingMargin" id="jGs-XV-ZUg"/>
-                                                <constraint firstItem="01v-kS-Rov" firstAttribute="centerY" secondItem="jlr-Es-vY7" secondAttribute="centerY" id="reu-rK-QDY"/>
-                                                <constraint firstItem="01v-kS-Rov" firstAttribute="leading" secondItem="DcZ-Pl-ZG7" secondAttribute="leadingMargin" constant="12" id="tsG-v2-TZF"/>
+                                                <constraint firstAttribute="bottom" secondItem="01v-kS-Rov" secondAttribute="bottom" constant="98" id="lzS-DR-JVL"/>
                                                 <constraint firstItem="CH1-XA-Jhr" firstAttribute="top" secondItem="ptW-kA-7wi" secondAttribute="bottom" constant="57" id="wXN-0G-FoB"/>
                                             </constraints>
                                         </tableViewCellContentView>

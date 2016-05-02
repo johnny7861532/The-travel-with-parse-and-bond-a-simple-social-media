@@ -20,52 +20,46 @@ let defaultRange = 0...4
 let additionalRangeSize = 5
 var timelineComponent: TimelineComponent<Post, TimelineViewController>!
 
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         timelineComponent = TimelineComponent(target: self)
         self.tabBarController?.delegate = self
         
         
-        
             }
+    
     
    func takePhoto(){
         // instantiate photo taking class, provide callback for when photo  is selected
         photoTakingHelper = PhotoTakingHelper(viewController: self.tabBarController!,callback:{ (image: UIImage?)in
             let post = Post()
-            post.image.value = image!
             
+            post.image.value = image!
             post.uploadPost()
             
-
-            
-            
-            
-
                                     }
-            
-        )
-    
+                    )
+   
     }
     override func viewDidAppear(animated: Bool) {
+    super.viewDidAppear(animated)
     timelineComponent.loadInitialIfRequired()
-                }
+                    }
     
     func loadInRange(range: Range<Int>, completionBlock: ([Post]?) -> Void) {
     
     ParseHelper.timelineRequestForCurrentUser(range) {
         (result: [PFObject]?, error: NSError?) -> Void in
+        
         if let error = error {
         ErrorHandling.defaultErrorHandler(error)
         }
-       
-
-        let posts = result as? [Post] ?? []
         
-       
-        completionBlock(posts)
+        
+        let posts = result as? [Post] ?? []
+                completionBlock(posts)
     }
 }
 
@@ -93,6 +87,8 @@ extension TimelineViewController: UITabBarControllerDelegate {
 extension TimelineViewController: UITableViewDataSource {
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return self.timelineComponent.content.count
+        
+        
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
@@ -103,8 +99,7 @@ extension TimelineViewController: UITableViewDataSource {
         post.downloadImage()
         post.fetchLikes()
         cell.post = post
-       
-        
+      
         
         return cell
     
